@@ -8,7 +8,8 @@
 foods = {
   apples: 23,
   grapes: 507,
-  eggs: 48
+  eggs: 48,
+  bananas: 6
 }
 
 // Write code that prints all of the 'keys' of the foods variable
@@ -18,15 +19,15 @@ console.log(Object.keys(foods));
 // Write code that prints all of the 'values' of the foods variable
 // you created above:
 // YOUR CODE HERE
-
+console.log(Object.values(foods));
 // Write code that prints the value of the second food of the foods variable
 // you created above:
 // YOUR CODE HERE
-
+console.log(foods.grapes);
 // Write code that adds a food to the foods object.
 // Then, print the updated object:
 // YOUR CODE HERE
-
+console.log(Object.keys(foods));
 
 //#-------------------
 // Part 2: Email
@@ -38,18 +39,24 @@ console.log(Object.keys(foods));
 
 // Declare a variable that stores an object. Each key should be an attribute of an email and each
 // value should be some appropriate value for that key. Work to have at least 5 key-value pairs.
-
+var email1 = {
+  sender: ["Blancherachel@gmail.com"],
+  recipient: ["brh1892@aol.com"],
+  subject: ["This is an email to myself."],
+  body: ["Reminder to run 4 miles today."],
+  signature: ["Blanche (they/them)"]
+}
 // Write code that logs your email object to the terminal.
-
+console.log(email1);
 
 // Write code that logs all of the 'keys' of the email object
 // you created above:
 // YOUR CODE HERE
-
+console.log(Object.keys(email1));
 // Write code that logs all of the 'values' of the email object
 // you created above:
 // YOUR CODE HERE
-
+console.log(Object.values(email1));
 
 //#-------------------
 // Part 3: Many Emails - CHALLENGE!
