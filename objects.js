@@ -106,3 +106,35 @@ console.log(posts[0]);
 // YOU DO: Create an array of at least 3 EMAIL Objects, using the same
 // key-value pairs you used in your email Object above.
 // Then, print the email Array to the Terminal.
+var emails = [
+  {
+  sender: "Blancherachel@gmail.com",
+  recipient: "Adinaraizen.com",
+  subject: "Sitting directions",
+  body: "What to do when you are watching Chesty while I'm in SD.",
+  signature: "Blanche (they/them)"
+  },
+  {
+  sender: "customer@bedbathandbeyond.com",
+  recipient: "brh1892@aol.com",
+  subject: "20% off one single item!",
+  body: "Please come to our store we love you.",
+  signature: "BBB"
+  },
+  {
+  sender: "Chester@RMFR.com",
+  recipient: "blancherachel@gmail.com",
+  subject: "Please feed me.",
+  body: "RIGHT NOW!",
+  signature: "Your best friend"
+  },
+  {
+  sender: "OrenH@gmail.com",
+  recipient: "Blancherachel@gmail.com",
+  subject: "Did you receive my gift?",
+  body: "CHECK YOUR MAILBOX!",
+  signature: "Sir!"
+  }
+];
+
+console.log(emails);
