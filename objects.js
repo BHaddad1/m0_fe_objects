@@ -138,3 +138,25 @@ var emails = [
 ];
 
 console.log(emails);
+
+
+var person = {
+ name: "Kaitlyn",
+ numberOfPets: 2,
+ email: "kaitlyn@turing.edu",
+ isOnline: true
+}
+console.log(person);
+console.log(Object.keys(person));
+console.log(Object.values(person));
+console.log(Object.keys(person)[0]);
+console.log(Object.values(person)[0]);
+console.log(`${Object.keys(person)[2]}: ${Object.values(person)[2]}`);
+
+var person1 = {
+  name: "Craig",
+  age: 38,
+  hasChild: true
+}
+console.log(person1);
+console.log(`${Object.keys(person1)[2]}: ${Object.values(person1)[2]}`);
